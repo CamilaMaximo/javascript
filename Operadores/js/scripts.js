@@ -90,8 +90,7 @@ console.log(undefined == false)
 "a"* "b"= NaN
 
 */
-
-
+// console
 
 
 
