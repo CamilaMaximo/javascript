@@ -97,3 +97,43 @@ let r = 10
 for(r; r > 0; r = r - 1){
     console.log(  `R diminuindo ${r}` )
 }
+
+//forçando a saida de um loop
+//break
+
+for(let g = 20; g > 10; g--){
+    console.log( `o valor de g é ${g}` );
+    if( g === 12){
+        console.log("O g é 12!");
+        break
+    }
+}
+
+//Pulando a execução de um loop
+
+for(let s= 0; s < 10; s = s + 1){
+    //operador resto % para saber par ou impar
+    if(s % 2 === 0){
+        console.log("Número par!");
+        continue
+    }
+    console.log(s, "ímpar")
+}
+//switch
+/*se estiver usando mais de 4 if e else
+o melhor é usar switch. cada if seria um case */
+const job = "Advogado"
+switch(job){
+    case "Programado":
+        console.log("Você é um programador")
+    break;
+    case "Advogado":
+        console.log("Advogado")
+        break;
+    case "Engenheiro":
+        console.log("Engenheiro")
+    break;
+    default:
+        console.log("Profissão não encontrada.")
+
+}
