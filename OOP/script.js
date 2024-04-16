@@ -196,3 +196,5 @@ console.log(shark)
 console.log(shark instanceof Lobo);//verificar class de classe
 console.log(new Lobo(4, "teste") instanceof Mamifero);//para verificar de objeto para class
 console.log( new Post("a","b") instanceof Lobo);//novamente de class para objeto
+
+
